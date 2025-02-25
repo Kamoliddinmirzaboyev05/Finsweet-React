@@ -37,9 +37,7 @@ function Category({ categories }) {
                     <div className="postText">
                       <p className="postType">{item.type}</p>
                       <h2>{item.title}</h2>
-                      <p className="postInfo">
-                       {item.info}
-                      </p>
+                      <p className="postInfo">{item.info}</p>
                     </div>
                   </div>
                 );
@@ -48,30 +46,22 @@ function Category({ categories }) {
             <div className="leftSide">
               <div className="categories">
                 <h2 className="categoriesTitle">Categories</h2>
-                <div className="oneCategory">
-                  <div className="categoryImg">
-                    <img src="/Icon1.svg" alt="" />
-                  </div>
-                  <h2>Buisness</h2>
-                </div>
-                <div className="oneCategory">
-                  <div className="categoryImg">
-                    <img src="/Icon2.svg" alt="" />
-                  </div>
-                  <h2>Startup</h2>
-                </div>
-                <div className="oneCategory">
-                  <div className="categoryImg">
-                    <img src="/public/Icon3.svg" alt="" />
-                  </div>
-                  <h2>Economy</h2>
-                </div>
-                <div className="oneCategory">
-                  <div className="categoryImg">
-                    <img src="/public/Icon4.svg" alt="" />
-                  </div>
-                  <h2>Technology</h2>
-                </div>
+                {categories.map((item) => {
+                  return (
+                    <div
+                      className={
+                        oneProduct[0].title == item.title
+                          ? "oneCategory activeCategory"
+                          : " oneCategory"
+                      }
+                    >
+                      <div className="categoryImg">
+                        <img src={item.img} alt="" />
+                      </div>
+                      <h2>{item.title}</h2>
+                    </div>
+                  );
+                })}
               </div>
               <div className="allTags">
                 <h2 className="categoriesTitle">All tags</h2>
