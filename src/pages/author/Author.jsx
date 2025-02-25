@@ -7,7 +7,7 @@ function Author() {
       <div className="authorHero">
         <div className="container">
           <div className="authorImg">
-            <img src="/public/mainauthor.png" alt="" />
+            <img src="/mainauthor.png" alt="" />
           </div>
           <div className="authorData">
             <h2>Hey there, I’m Andrew Jonhson and welcome to my Blog</h2>
@@ -25,7 +25,7 @@ function Author() {
             </div>
           </div>
           <div className="bottomLine">
-            <img src="/public/bottom line.png" alt="" />
+            <img src="/bottom line.png" alt="" />
           </div>
         </div>
       </div>
@@ -35,7 +35,7 @@ function Author() {
           <div className="authorPosts">
             <div className="authorPost">
               <div className="postImg">
-                <img src="/public/authorpost2.png" alt="" />
+                <img src="/authorpost2.png" alt="" />
               </div>
               <div className="postText">
                 <p className="postType">BUSINESS</p>
@@ -48,7 +48,7 @@ function Author() {
             </div>
             <div className="authorPost">
               <div className="postImg">
-                <img src="/public/authorpost1.png" alt="" />
+                <img src="/authorpost1.png" alt="" />
               </div>
               <div className="postText">
                 <p className="postType">ECONOMY</p>
