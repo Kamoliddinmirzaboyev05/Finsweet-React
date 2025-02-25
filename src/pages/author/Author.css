@@ -1,0 +1,64 @@
+.authorHero {
+  padding: 128px 0;
+  background-color: #f4f0f8;
+  position: relative;
+}
+.authorHero .container {
+  display: flex;
+  gap: 32px;
+  align-items: start;
+  justify-content: center;
+}
+.authorData {
+  width: 680px;
+}
+.authorData h2 {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 64px;
+  padding-bottom: 24px;
+}
+.authorData p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #6d6e76;
+  line-height: 28px;
+  padding-bottom: 24px;
+}
+.authorData .authorSocials {
+  width: 100%;
+  justify-content: start;
+  font-size: 20px;
+}
+.authorData .authorSocials i:hover {
+  color: #ffd050;
+}
+.bottomLine {
+  position: absolute;
+  bottom: -4px;
+}
+.authorBlog {
+  padding: 128px 0;
+}
+.authorBlog .authorBlogTitle {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 64px;
+  padding-bottom: 64px;
+}
+.authorPosts{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+.authorPost{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.postText{
+    width: 580px;
+}
+.postText h2{
+    font-size: 36px;
+}

@@ -1,0 +1,150 @@
+.blogHero {
+  background-color: #f4f0f8;
+  padding: 80px;
+}
+.blogHero .container {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.blogHeroText {
+  width: 600px;
+}
+.featured {
+  color: #232536;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  padding-bottom: 20px;
+}
+.blogHeroText h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  padding-bottom: 16px;
+  color: #232536;
+}
+.author {
+  padding-bottom: 16px;
+}
+.colorSpan {
+  color: #592ea9;
+  font-weight: 500;
+}
+.blogHeroPara {
+  color: #6d6e76;
+  padding-bottom: 32px;
+  font-weight: 400;
+}
+.readMoreBtn {
+  padding: 16px 48px;
+  background-color: #ffd050;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Styling all posts */
+
+.allPosts {
+  padding: 64px 0;
+}
+.sectionTitle {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #d0d1d3;
+}
+.blogPosts {
+  padding: 64px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+.blogPost {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.postText {
+  width: 650px;
+}
+.postType {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #592ea9;
+  letter-spacing: 3px;
+  padding-bottom: 20px;
+}
+.postText h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2px;
+  padding-bottom: 16px;
+}
+.postInfo {
+  font-weight: 400;
+  line-height: 28px;
+  font-size: 16px;
+  color: #6d6e76;
+}
+.postBtns {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.postBtns button {
+  border: none;
+  font-weight: 700;
+  background-color: transparent;
+}
+.prevBtn {
+  font-size: 24px;
+  color: #6d6e76;
+}
+.nextBtn {
+  font-size: 28px;
+}
+.categoriesTitle {
+  font-weight: 700;
+  font-size: 36px;
+}
+.joinSection .container {
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+}
+.sectionText {
+  width: 420px;
+  text-align: center;
+}
+.sectionText h2 {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: -2px;
+  padding-bottom: 16px;
+}
+.sectionText p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #6d6e76;
+  padding-bottom: 32px;
+}
+.sectionText button{
+    padding: 16px 48px;
+    background-color: #ffd050;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    gap: 10px;
+    text-align: center;
+
+}

@@ -1,0 +1,45 @@
+nav {
+  background-color: #232536;
+}
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+nav button {
+  padding: 15px 40px;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #fff;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+nav button:hover {
+  background-color: #ffd050;
+}
+ul {
+  list-style: none;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.links a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  font-family: "Inter";
+  transition: all 0.8s ease;
+}
+.links a:hover {
+  color: #ffd050;
+}

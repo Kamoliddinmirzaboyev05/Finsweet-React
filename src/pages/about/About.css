@@ -1,0 +1,145 @@
+.aboutPage .container {
+  padding: 80px 0;
+  position: relative;
+}
+.aboutUs {
+  position: absolute;
+  width: 500px;
+  padding: 64px;
+  left: 150px;
+  background-color: white;
+}
+.aboutUs p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #232536;
+  letter-spacing: 3px;
+  padding-bottom: 16px;
+}
+.aboutUs h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 45px;
+}
+.aboutHeroText {
+  display: flex;
+  align-items: start;
+  padding-left: 50px;
+  justify-content: end;
+}
+.aboutHeroText p {
+  width: 400px;
+  color: #4c4c4c;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-bottom: 79px;
+}
+.aboutHero img {
+  width: 100%;
+}
+.aboutInfo {
+  background-color: #f4f0f8;
+  padding: 128px 108px 64px;
+  display: flex;
+  gap: 32px;
+}
+.aboutInfoTitle {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #232536;
+  padding-bottom: 24px;
+}
+.aboutInfo h2 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -1px;
+  padding-bottom: 16px;
+}
+.infoText {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #6d6e76;
+}
+.aboutBlogs {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 0;
+  gap: 100px;
+}
+.aboutBlogs .aboutBlog:last-child {
+  flex-direction: row-reverse;
+}
+.aboutBlog {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+.aboutBlogText h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  padding-bottom: 16px;
+}
+.aboutBlogText h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  padding-bottom: 16px;
+}
+.aboutBlogText p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #6d6e76;
+}
+.aboutBlogImg img {
+  width: 600px;
+}
+.authors {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.authorBox {
+  text-align: center;
+  padding: 40px 28px;
+  background-color: #f4f4f4;
+}
+.authorBox:hover{
+  background-color: #FBF6EA;
+}
+.authorsTitle {
+  text-align: center;
+  padding-bottom: 48px;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: -2px;
+}
+.authorImg {
+  margin-bottom: 20px;
+}
+.authorBox h2 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px;
+  padding-bottom: 10px;
+}
+.authorBox p {
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  color: #6d6e76;
+}
+.authorSocials{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
