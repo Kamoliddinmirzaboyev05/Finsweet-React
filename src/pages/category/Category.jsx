@@ -62,13 +62,13 @@ function Category({ categories }) {
                 </div>
                 <div className="oneCategory">
                   <div className="categoryImg">
-                    <img src="/Icon3.svg" alt="" />
+                    <img src="/public/Icon3.svg" alt="" />
                   </div>
                   <h2>Economy</h2>
                 </div>
                 <div className="oneCategory">
                   <div className="categoryImg">
-                    <img src="/Icon4.svg" alt="" />
+                    <img src="/public/Icon4.svg" alt="" />
                   </div>
                   <h2>Technology</h2>
                 </div>
