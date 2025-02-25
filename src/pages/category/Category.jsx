@@ -50,27 +50,27 @@ function Category({ categories }) {
                 <h2 className="categoriesTitle">Categories</h2>
                 <div className="oneCategory">
                   <div className="categoryImg">
-                    <img src="/public/Icon1.svg" alt="" />
+                    <img src="/Icon1.svg" alt="" />
+                  </div>
+                  <h2>Buisness</h2>
+                </div>
+                <div className="oneCategory">
+                  <div className="categoryImg">
+                    <img src="/Icon2.svg" alt="" />
                   </div>
                   <h2>Startup</h2>
                 </div>
                 <div className="oneCategory">
                   <div className="categoryImg">
-                    <img src="/public/Icon1.svg" alt="" />
+                    <img src="/Icon3.svg" alt="" />
                   </div>
-                  <h2>Startup</h2>
+                  <h2>Economy</h2>
                 </div>
                 <div className="oneCategory">
                   <div className="categoryImg">
-                    <img src="/public/Icon1.svg" alt="" />
+                    <img src="/Icon4.svg" alt="" />
                   </div>
-                  <h2>Startup</h2>
-                </div>
-                <div className="oneCategory">
-                  <div className="categoryImg">
-                    <img src="/public/Icon1.svg" alt="" />
-                  </div>
-                  <h2>Startup</h2>
+                  <h2>Technology</h2>
                 </div>
               </div>
               <div className="allTags">
