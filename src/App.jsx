@@ -71,7 +71,7 @@ function App() {
     },
     {
       id: 2,
-      img: "/Icon3.svg",
+      img: "/icon3.svg",
       title: "Economy",
       descr: "lorem ipsum doler amet dev aklek eedededjkd",
       post: [
@@ -100,7 +100,7 @@ function App() {
     },
     {
       id: 3,
-      img: "/Icon4.svg",
+      img: "/icon4.svg",
       title: "Technology",
       descr: "lorem ipsum doler amet dev aklek eedededjkd",
       post: [
